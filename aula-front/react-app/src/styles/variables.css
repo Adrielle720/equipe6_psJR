@@ -1,0 +1,42 @@
+/* ─────────────────────────────────────
+   Design Tokens — Ambev Long Neck NENO
+   ───────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg:  #0a0a0b;
+  --bg2: #111114;
+  --bg3: #181820;
+  --bg4: #1e1e28;
+
+  /* Borders */
+  --border:  rgba(255,255,255,0.06);
+  --border2: rgba(255,255,255,0.1);
+
+  /* Brand / Accent */
+  --accent:  #F5C800;   /* Ambev Yellow */
+  --accent2: #ff6b2b;   /* Orange — alerts */
+  --accent3: #3ecf8e;   /* Green  — ok/safe */
+
+  /* Semantic */
+  --red:  #ff4757;
+  --blue: #4a9eff;
+
+  /* Typography */
+  --text:  #e8e6e0;
+  --text2: rgba(232,230,224,0.55);
+  --text3: rgba(232,230,224,0.3);
+
+  /* Fonts */
+  --font-h: 'Syne', sans-serif;     /* Display / headings */
+  --font-b: 'Outfit', sans-serif;   /* Body */
+  --font-m: 'DM Mono', monospace;   /* Labels / numbers */
+
+  /* Layout */
+  --sidebar-w: 52px;
+  --header-h:  52px;
+  --radius:    10px;
+
+  /* Font size */
+  --font-size-sm: 12px;
+}
+body { font-size: 14px; }
